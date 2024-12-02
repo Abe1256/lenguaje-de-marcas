@@ -4,43 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bioshock - Un Viaje a Rapture</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0d0d0d;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #00bfff;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #00bfff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #0d0d0d;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .game-info {
+            background-color: #262626;
+            padding: 15px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Bioshock - Un Viaje a Rapture</h1>
         <nav>
-            <ul>
-                <li><a href="#introduccion">Introducción</a></li>
-                <li><a href="#historia">Historia</a></li>
-                <li><a href="#jugabilidad">Jugabilidad</a></li>
-                <li><a href="#personajes">Personajes</a></li>
-                <li><a href="#conclusiones">Conclusiones</a></li>
-            </ul>
+            <a href="#historia">Historia</a>
+            <a href="#jugabilidad">Jugabilidad</a>
+            <a href="#personajes">Personajes</a>
+            <a href="#curiosidades">Curiosidades</a>
         </nav>
     </header>
-    <main>
-        <section id="introduccion">
-            <h2>Introducción</h2>
-            <p>Bioshock es un videojuego de disparos en primera persona desarrollado por Irrational Games y lanzado en 2007. Ambientado en la ciudad submarina de Rapture, el juego combina elementos de horror, ciencia ficción y filosofía.</p>
-        </section>
-        <section id="historia">
-            <h2>Historia</h2>
-            <p>La historia sigue a Jack, un hombre que se encuentra en un accidente aéreo y termina en el océano, donde descubre Rapture, una utopía creada por Andrew Ryan. A medida que avanza, Jack se enfrenta a los peligros de la ciudad y a sus propios orígenes.</p>
-        </section>
-        <section id="jugabilidad">
-            <h2>Jugabilidad</h2>
-            <p>El juego se caracteriza por su jugabilidad única que combina el uso de armas y poderes especiales llamados "Plásmidos". Los jugadores deben explorar, resolver acertijos y enfrentarse a enemigos en un entorno inmersivo.</p>
-        </section>
-        <section id="personajes">
-            <h2>Personajes</h2>
-            <p>Entre los personajes más destacados se encuentran Andrew Ryan, el creador de Rapture, y los Splicers, habitantes de la ciudad que han sido transformados por el uso excesivo de Plásmidos.</p>
-        </section>
-        <section id="conclusiones">
-            <h2>Conclusiones</h2>
-            <p>Bioshock no solo es un juego entretenido, sino que también plantea preguntas profundas sobre la moralidad, la libertad y la naturaleza humana. Su legado perdura en la industria de los videojuegos.</p>
-        </section>
-    </main>
+    <section id="historia">
+        <h2>Historia</h2>
+        <div class="game-info">
+            <p>Bioshock es un videojuego de disparos en primera persona desarrollado por Irrational Games. La historia se desarrolla en Rapture, una ciudad submarina utópica que se ha convertido en un lugar de caos y desesperación.</p>
+        </div>
+    </section>
+    <section id="jugabilidad">
+        <h2>Jugabilidad</h2>
+        <div class="game-info">
+            <p>El juego combina elementos de rol y acción, permitiendo a los jugadores personalizar sus habilidades y armas mientras exploran el entorno de Rapture.</p>
+        </div>
+    </section>
+    <section id="personajes">
+        <h2>Personajes</h2>
+        <div class="game-info">
+            <p>Entre los personajes más destacados se encuentran Jack, el protagonista, y Andrew Ryan, el fundador de Rapture, quien representa la filosofía de la ciudad.</p>
+        </div>
+    </section>
+    <section id="curiosidades">
+        <h2>Curiosidades</h2>
+        <div class="game-info">
+            <p>El juego ha sido aclamado por su narrativa profunda y su atmósfera envolvente, convirtiéndose en un clásico de los videojuegos modernos.</p>
+        </div>
+    </section>
     <footer>
         <p>&copy; 2023 Bioshock Fan Page. Todos los derechos reservados.</p>
     </footer>
