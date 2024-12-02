@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioShock - Información Detallada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #0056b3;
+        }
+        header {
+            background: #0056b3;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0056b3;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            background: #0056b3;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BioShock</h1>
+        <nav>
+            <a href="#desarrollo">Desarrollo</a>
+            <a href="#jugabilidad">Jugabilidad</a>
+            <a href="#trama">Trama</a>
+            <a href="#personajes">Personajes</a>
+            <a href="#recepcion">Recepción</a>
+        </nav>
+    </header>
+
+    <section id="desarrollo">
+        <h2>Desarrollo</h2>
+        <p>BioShock es un videojuego de disparos en primera persona desarrollado por Irrational Games y publicado por 2K Games. El juego fue lanzado en agosto de 2007 para Microsoft Windows y Xbox 360, y más tarde para PlayStation 3 y otras plataformas.</p>
+        <p>El director creativo Ken Levine fue una de las fuerzas impulsoras detrás del juego, que se inspira en la filosofía de Ayn Rand, el Art Deco y la atmósfera de una ciudad submarina. La creación de BioShock fue un esfuerzo de varios años, con el desarrollo comenzando en 2004.</p>
+    </section>
+
+    <section id="jugabilidad">
+        <h2>Jugabilidad</h2>
+        <p>BioShock combina elementos de rol y acción en primera persona. Los jugadores asumen el papel de Jack, quien explora la ciudad submarina de Rapture. El juego permite a los jugadores utilizar tanto armas de fuego como poderes especiales llamados "Plásmidos", que otorgan habilidades sobrenaturales.</p>
+        <p>Los entornos son interactivos, y los jugadores pueden recoger recursos, mejorar sus habilidades y tomar decisiones que afectan el desarrollo de la historia. La narrativa se cuenta a través de grabaciones de audio encontradas por el jugador, lo que añade profundidad a la historia y al mundo del juego.</p>
+    </section>
+
+    <section id="trama">
+        <h2>Trama</h2>
+        <p>La historia comienza en 1960, cuando el protagonista, Jack, sobrevive a un accidente de avión y termina en el océano cerca de una misteriosa ciudad submarina llamada Rapture. La ciudad fue concebida como un utopía para los más brillantes de la sociedad, pero ha caído en el caos debido al uso excesivo de "ADAM", una sustancia que otorga poderes extraordinarios.</p>
+        <p>A medida que Jack explora Rapture, se encuentra con varios personajes y criaturas, incluidos los "Splicers", que son humanos locos por el uso de ADAM. La trama se desarrolla a través de giros inesperados y revela la historia de Rapture y su fundador, Andrew Ryan.</p>
+    </section>
+
+    <section id="personajes">
+        <h2>Personajes</h2>
+        <h3>Jack</h3>
+        <p>El protagonista jugable del juego, cuyo objetivo es escapar de Rapture y descubrir su pasado.</p>
+
+        <h3>Andrew Ryan</h3>
+        <p>El fundador de Rapture, que representa los ideales de individualismo y libre albedrío.</p>
+
+        <h3>Atlas</h3>
+        <p>Un misterioso personaje que guía a Jack a través de Rapture, con sus propias intenciones ocultas.</p>
+
+        <h3>Brigid Tenenbaum</h3>
+        <p>Una científica que desempeña un papel clave en el desarrollo de ADAM y en la historia de las "Little Sisters".</p>
+    </section>
+
+    <section id="recepcion">
+        <h2>Recepción</h2>
+        <p>BioShock fue aclamado por la crítica y recibió numerosos premios, incluyendo varios premios Game of the Year. Su narrativa profunda, diseño artístico y mecánicas de juego innovadoras fueron elogiadas por crear una experiencia inmersiva y reflexiva.</p>
+        <p>El juego ha vendido más de 5 millones de copias y ha dado lugar a varias secuelas y spin-offs, consolidando su lugar en la historia de los videojuegos.</p>
+    </section>
+
+    <footer>
+        <p>© 2023 Información sobre BioShock</p>
+    </footer>
+</body>
+</html>
